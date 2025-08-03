@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kavya's Creative Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Animated Background Shapes -->
+  <ul class="bg-shapes">
+    <li></li><li></li><li></li><li></li><li></li>
+    <li></li><li></li><li></li><li></li><li></li>
+  </ul>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">DevelopedByKavya</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="themeToggle" title="Toggle Theme"><i class="fas fa-moon"></i></button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section with Parallax -->
+  <section id="home" class="section hero parallax">
+    <div class="hero-content">
+      <h1>Hello, I'm <span class="name" style="color:#ff4081; font-weight:bold;">Kavya</span></h1>
+      <h2 class="section-subtitle">Transforming Vision into Web Realitys</h2>
+      <p class="project-intro">
+        Hello! I'm <span style="color:#ff4081; font-weight:bold;">Kavya</span> — welcome to my responsive landing page project. This interactive website is a showcase of the responsive navigation menus and smooth interactive UI I developed using HTML, CSS, and JavaScript. From hover effects to scroll-triggered animations, each section demonstrates how design and code come together to create a delightful web experience.
+      </p>
+      <p class="quote" style="color: black; font-weight: bold;">
+  "Great websites aren't just built — they're crafted with care, creativity, and curiosity."
+</p>
+    </div>
+  </section>
+
+  <!-- About Section with SVG Blob Mask Image -->
+  <section id="about" class="section about">
+    <div class="blob-image">
+      <svg viewBox="0 0 200 200">
+        <mask id="blob-mask">
+          <path fill="#fff" d="M39.8,-67.3C51.6,-59.6,62.2,-51.2,68.4,-40.3C74.6,-29.3,76.4,-15.7,74.5,-2.9C72.6,10,66.9,20.1,60.3,30.4C53.8,40.6,46.3,51.1,36.1,58.3C25.9,65.4,13,69.2,1.2,67.3C-10.5,65.4,-21,57.7,-34.1,51.4C-47.3,45.2,-63.2,40.5,-66.2,31.5C-69.1,22.5,-59.1,9.2,-56.1,-5.1C-53.2,-19.3,-57.3,-34.5,-51.1,-44.6C-44.9,-54.6,-28.4,-59.6,-13.3,-65.4C1.8,-71.2,36.2,-75.1,39.8,-67.3Z" transform="translate(100 100)" />
+        </mask>
+        <img src="kavya.jpg" alt="My Profile Photo" width="300" height="300" />
+      </svg>
+    </div>
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>
+        I’m passionate about <strong style="color:#ff4081;">Computer Science and Engineering</strong> and currently pursuing my degree at
+        <strong style="color:#ff4081;">Seshadri Rao Gudlavalleru Engineering College</strong>. With a CGPA of <strong style="color:#ff4081;">8.77</strong>,
+        I’m driven by the curiosity to learn and a vision to innovate.
+      </p>
+      <p>
+        I’m currently interning at <strong style="color:#ff4081;">Hex Software</strong>, where I’m diving deep into
+        <strong style="color:#ff4081;">Artificial Intelligence</strong> and its real-world applications. I love exploring how machines can learn, adapt, and assist humans in innovative ways.
+      </p>
+      <p>
+        Alongside, I'm also interning at <strong style="color:#ff4081;">SkillCraft Technology</strong> with a focus on
+        <strong style="color:#ff4081;">Web Development</strong>. Here, I get to implement responsive, modern interfaces and tackle real-time problems through code.
+      </p>
+      <p>
+        I have successfully completed two major projects during my internship journey — each one helping me strengthen my practical understanding of tech stacks and user-focused design.
+      </p>
+      <p>
+        Whether it’s debugging late at night or celebrating a successful deployment, I enjoy every part of the development cycle. My enthusiasm for coding goes hand-in-hand with a deep appreciation for clean design and intuitive user experience.
+      </p>
+      <p>
+        Outside of academics, I constantly update myself with the latest in tech trends, frameworks, and tools. My goal is to build applications that are not just functional, but also impactful and user-friendly.
+      </p>
+    </div>
+  </section>
+
+  <!-- Projects with 3D Tilt -->
+  <section id="projects" class="section projects">
+    <h2>My Projects</h2>
+    <div class="project-card" data-tilt>
+      <h3 style="color: #ff4081;">📚 BookNest: Where Stories Nestle</h3>
+<p>
+BookNest is a vibrant full-stack storytelling platform built with <strong>React.js</strong> and <strong>Node.js</strong>. It’s designed for writers to share their creativity and for readers to explore a world of fiction and ideas. With a sleek UI and robust backend, BookNest offers a seamless, community-driven reading experience.
+</p>
+
+<ul>
+  <li>📝 Publish, edit, and manage stories</li>
+  <li>📂 Browse by genres and tags</li>
+  <li>💬 Like, comment, and connect with authors</li>
+  <li>⚛️ Responsive design for all devices</li>
+  <li>🚀 Fast, interactive, and scalable architecture</li>
+</ul>
+
+
+    </div>
+    <div class="project-card" data-tilt>
+      <h3 style="color: #ff4081;">🔮 AI Chatbot Development – Bringing Conversations to Life</h3>
+      <div>
+  <p><strong>AI chatbots</strong> are virtual agents that talk like humans—only faster and smarter. Powered by NLP, they understand your questions and respond instantly, whether it’s on a website, WhatsApp, or social media.</p>
+
+  <h4>🚀 Why They’re Awesome:</h4>
+  <ul>
+    <li>Talk like a human</li>
+    <li>Available 24/7</li>
+    <li>Work across platforms</li>
+    <li>Learn from every chat</li>
+  </ul>
+
+  <h4>🌟 What They Can Do:</h4>
+  <ul>
+    <li>Track orders in seconds</li>
+    <li>Book appointments or answer FAQs</li>
+    <li>Suggest products like a pro</li>
+  </ul>
+
+  <h4>🎯 The Big Wins:</h4>
+  <ul>
+    <li>No wait times</li>
+    <li>Instant, accurate replies</li>
+    <li>Handles millions of users</li>
+    <li>Saves time and money</li>
+  </ul>
+</div>
+
+    </div>
+  </section>
+
+  <!-- Skills Section with Animated Bars -->
+  <section id="skills" class="section skills">
+    <h2 style="color: #ff4081;">Skills</h2>
+
+    <ul>
+      <li><strong>Programming Languages:</strong> C#, C, Python, Java</li>
+      <li><strong>Web Technologies:</strong> HTML, CSS, JavaScript</li>
+      <li><strong>Databases:</strong>strongOracle, SQL, MongoDB</li>
+      <li><strong>Scripting:</strong> JavaScript</li>
+      <li><strong>Operating Systems:</strong> Windows, Linux</li>
+      <li><strong>Tools and Technologies:</strong> Visual Studio, Tableau, Orange</li>
+      <li><strong>Game Engines:</strong> Unity, Unreal</li>
+    </ul> 
+</div>
+
+
+  </section>
+
+  <!-- Fun Facts Counters -->
+  <section class="section facts">
+    <div class="counter"> <span data-target="5">0</span>+ Projects </div>
+    <div class="counter"> <span data-target="3">0</span>+ Years Learning </div>
+  </section>
+
+  <!-- Contact Section with Social Icons -->
+  <section id="contact" class="section contact">
+    <h2>Contact</h2>
+    <p>Feel Free to Get in Touch:</p>
+    <div class="social-icons">
+      <a href="mailto:kavyakatragadda41@gmail.com" target="_blank" title="Email">
+        <i class="fas fa-envelope"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/kavya-katragadda-345278345" target="_blank" title="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/Nagakavya21" target="_blank" title="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+  </section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.3/vanilla-tilt.min.js"></script>
+<!-- Your page content -->
+
+
+</body>
+</html>
