@@ -1,1 +1,1 @@
-Project executable files
+This folder contains the executable project files for the responsive landing page, including HTML, CSS, JavaScript, and image resources. You can open intex.html in any browser to view and run the project without needing additional setup.
